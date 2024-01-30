@@ -16,6 +16,11 @@ module.exports = {
     project: ['./tsconfig.json', './tsconfig.node.json', 'testconfig.ts'],
   },
   plugins: ['react'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   rules: {
     'react/react-in-jsx-scope': 0,
     '@typescript-eslint/triple-slash-reference': 0,
@@ -24,5 +29,6 @@ module.exports = {
     'import/prefer-default-export': 0,
     '@typescript-eslint/consistent-type-definitions': 0,
     '@typescript-eslint/no-confusing-void-expression': 0,
+    '@typescript-eslint/no-non-null-assertion': 0,
   },
 };
