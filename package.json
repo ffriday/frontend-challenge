@@ -10,7 +10,7 @@
     "fix": "npx eslint \"**/*.{ts,tsx}\" --fix",
     "prettier": "npx prettier . --write",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "^18.2.0",
