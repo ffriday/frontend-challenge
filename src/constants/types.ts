@@ -10,6 +10,11 @@ export enum ENV {
   LSKey = 'favoriteCats',
 }
 
+export enum SearchParams {
+  page = 'page',
+  limit = 'limit',
+}
+
 export type Cat = {
   id: string;
   url: string;
