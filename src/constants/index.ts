@@ -1,3 +1,5 @@
-import { AppRoutes } from './types';
+import { AppRoutes, ENV } from './types';
+import type { Cat, CatContextProps } from './types';
 
-export { AppRoutes };
+export { AppRoutes, ENV };
+export type { Cat, CatContextProps };
